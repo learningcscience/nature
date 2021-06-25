@@ -1,0 +1,181 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+	font-family: 'Noto Sans', sans-serif;
+	padding:0;
+	margin:0;
+	scroll-behavior: smooth;
+}
+body{
+	color: black;
+	background: white;
+}
+.dark-mode{
+	background: #555;
+	color: white;
+}
+.x{
+    	background: 	url(bg-1.jpg);
+    	background-size: cover;
+    	background-position: center center;
+	height: auto;
+}
+
+.x1{
+    	background: url('bg-2.jpg') repeat fixed 100%;
+    	background-size: cover;
+    	background-position: center center;
+	height: auto;
+	background-attachment: fixed;
+}
+.x2{
+    	background: url('bg-3.jpg') repeat fixed 100%;
+    	background-size: cover;
+    	background-position: center center;
+	height: auto;
+	background-attachment: fixed;
+}
+.x3{
+    	background: url('bg-4.jpg') repeat fixed 100%;
+    	background-size: cover;
+    	background-position: center center;
+	height: auto;
+	background-attachment: fixed;
+}
+.x4{
+    	background: url('bg-5.jpg') repeat fixed 100%;
+    	background-size: cover;
+    	background-position: center center;
+	height: auto;
+	background-attachment: fixed;
+}
+.x-inner{
+   	padding-top: 20%;
+  	padding-bottom: 20%;	
+}
+h1.text{
+	color: white;
+	text-align: center;
+	font-size: 200px;
+}
+p.paragraph {
+    	margin-left: 6%;
+    	margin-right: 6%;
+    	margin-top: 6%;
+    	margin-bottom: 6%;
+    	text-align: justify;
+    	font-size: 25px;
+	font-weight: normal;
+
+}
+.footer	{
+	background:#111;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;	
+}
+.footer a{
+	text-decoration: none;
+	color: #219e43;
+}
+.btn button{
+	 margin-left: 70%;
+  	
+}
+button{
+	border: 1px solid #219e43;
+	outline: none;
+	background: transparent;
+	color: #219e43;
+	font-size: 20px;
+	padding: 15px 80px;
+	border-radius: 10px;
+}
+button:hover{
+	background: #219e43;
+	cursor: pointer;
+	color: white;
+}
+button:active{
+	color: #222;
+	border-radius: 5px;
+}
+.subscribe{
+	text-align: center;
+}
+.subscribe input{
+	width: 50%;
+	padding: 12px;
+	outline: none;
+	border: 2px solid #222;
+	background: #222;
+	color: white;
+	font-size:20px;
+	border-radius: 50px;	
+}
+::placeholder{
+	color: white;
+	text-align: center;
+	color: #219e43;
+}
+button.enter{
+	background: #219e43;
+	color: white;
+	width: 52	%;
+	padding: 10px;
+}
+hr{
+	margin-right: 10%;
+	margin-left: 10%;
+	padding: 1px;
+	background: #222;	
+	border-radius: 100%;
+	border-top: #ccc;
+	border-bottom: red;
+	border-left: #f55;
+	border-right: #555;
+}
+button.mode {
+    	padding: 8px 20px;
+    	position: absolute;
+    	top: 90%;
+    	right: 5%;
+	position: fixed;
+	background: #222;
+	border: none;
+	color: white;
+}
+
+h2.no{
+	position: absolute;
+	top: 50%;
+	right: 37%;
+}
+@media only screen and (max-device-width: 700px) {
+  	.x, .x1, .x2, .x3, .x4 {
+		max-width: 100%;
+  	}
+	h1.text{
+		font-size: 60px;
+	}
+	.btn button{
+		margin-left: 15%;
+	}
+	.subscribe input{
+		max-width: 100%;
+	}
+	p.paragraph {
+		font-size: 20px;
+	}
+	button{
+		padding: 8px 20px;
+	}
+	button.mode {
+    		position: absolute;
+    		top: 85%;
+    		right: 5%;
+		position: fixed;
+	}
+}	
